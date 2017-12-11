@@ -1,0 +1,14 @@
+.rotate180 {
+		transform-origin: top left;
+  /* IE 10+, Firefox, etc. */
+  -webkit-transform-origin: top left;
+  /* Chrome */
+  -ms-transform-origin: top left;
+  transform: rotate(180deg) translate(-100%, -100%);
+  -webkit-transform: rotate(180deg) translate(-100%, -100%);
+  -ms-transform: rotate(180deg) translateX(-100%, -100%);
+}
+.form-top-margin{
+	margin-top: 5%;
+	text-align: center;
+}
